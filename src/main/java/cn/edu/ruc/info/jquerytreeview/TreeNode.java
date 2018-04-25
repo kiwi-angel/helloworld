@@ -1,4 +1,4 @@
-package com.company.jquerytreeview;
+package cn.edu.ruc.info.jquerytreeview;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class TreeNode {
     private int id;  // node id
     private String text;  // 页面显示字符串
     private Boolean isChecked;  // 标识是否被选中
-    private List<TreeNode> children = new ArrayList<>();  // 子节点列表
+    private List<TreeNode> children = new ArrayList<TreeNode>();  // 子节点列表
 
     public TreeNode(int id, String text) {
         this.id = id;

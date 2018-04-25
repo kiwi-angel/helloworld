@@ -1,4 +1,4 @@
-package com.company.jquerytreeview;
+package cn.edu.ruc.info.jquerytreeview;
 
 import sun.reflect.generics.tree.Tree;
 
@@ -22,7 +22,7 @@ public class TreeController {
     private TreeModel m_node8 = new TreeModel(8,"node8", 0);
     private TreeModel m_node9 = new TreeModel(9,"node9", 0);
 
-    private static List<TreeModel> m_nodes = new ArrayList<>();
+    private static List<TreeModel> m_nodes = new ArrayList<TreeModel>();
     public static void initDate(){
         for (int i = 0; i < 10; i ++){
             m_nodes.add(new TreeModel(i, "root" + i, 0));
@@ -33,7 +33,7 @@ public class TreeController {
         initDate();
         // 从数据库中获取初始数据 即构造的私有成员node0—node9
         // 首先将node转换为treeNode节点
-        List<TreeNode> treeNodeList = new ArrayList<>();
+        List<TreeNode> treeNodeList = new ArrayList<TreeNode>();
         // 将初始的date放入node中
         for (int i = 0; i < 10; i ++){
             treeNodeList.add(new TreeNode(m_nodes.get(i).getId(), m_nodes.get(i).getText()));

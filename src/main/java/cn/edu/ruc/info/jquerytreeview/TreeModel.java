@@ -1,4 +1,4 @@
-package com.company.jquerytreeview;
+package cn.edu.ruc.info.jquerytreeview;
 
 /**
  * @Author: Lishuai
