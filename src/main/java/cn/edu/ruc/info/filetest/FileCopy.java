@@ -1,20 +1,9 @@
-package cn.edu.ruc.info;
-
+package cn.edu.ruc.info.filetest;
 
 import java.io.*;
 
-/**
- * 基于HLS协议，实现M3U8文件的拷贝
- */
 public class FileCopy {
 
-    public void ReadFile(){
-
-    }
-
-    public void CopyFileToDestination(String inputFile, String outputFile){
-
-    }
 
     /**
      * 复制文件
